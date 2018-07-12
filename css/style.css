@@ -1,0 +1,72 @@
+
+.sidenav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #818181;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.main {
+    margin-left: 160px; /* Same as the width of the sidenav */
+    font-size: 16px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+.tbodyfontSize{
+	font-size: 12px;
+}
+.divPadding{
+	padding: 10px;
+}
+input[type=text]
+{
+  background-color: #f8f9fa;
+  color: #0d0d0d;
+  padding: 7px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 5px;
+  border: 2px solid #f6f6f6;
+  border-radius: 5px 5px 5px 5px;
+}
+label {
+	display: block;
+	margin: 5px 0;
+}
+body {
+    font-family: "Segoe UI", sans-serif;
+}
+.table td, .table th {
+	vertical-align: middle !important;
+	padding:5px !important;
+}
+table.dataTable thead th, table.dataTable thead td,
+table.dataTable tbody td {
+	border-bottom: 0px !important;
+}
+.alert {
+    margin-bottom: 0px !important;
+}
